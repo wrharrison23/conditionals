@@ -54,3 +54,32 @@ if (personObject.language === 'english'){
 } else if (personObject.language === 'french'){
     console.log(`Bonjour, ${personObject.name}!`)
 }
+
+// Practice 5
+let time = '7:00 PM'
+let isHungry = true
+
+if (time === '7:30 AM' && isHungry){
+    console.log('Time for breakfast!')
+} else if (time === '12:00 PM' && isHungry){
+    console.log('Time for lunch!')
+} else if (time === '7:00 PM' || time === '8:00 PM' && isHungry){
+    console.log('Time for dinner!')
+} else if (isHungry){
+    console.log('Time for a snack!')
+} else {console.log('Have a cookie anyway!')}
+
+// Practice 6
+let grade = 86
+
+if (grade >= 0 && grade <= 69) {
+    console.log('You got an F')
+} else if (grade >= 70 && grade <= 76){
+    console.log('You got a D')
+} else if (grade >= 77 && grade <= 84){
+    console.log('You got a C')
+} else if (grade >= 84 && grade <= 92){
+    console.log('You got a B')
+} else if (grade >= 93 && grade <= 100){
+    console.log('You got an A')
+}
